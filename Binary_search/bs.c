@@ -26,3 +26,26 @@ int main(){
     }
     return 0;
 }
+//Another method
+#include<stdio.h>
+int main(){
+    int ara[]={2,3,4,5,10,11,23,56,78};
+    int left_index=0;
+    int right_index =8;
+    int mid_point=0;
+    int target = 56;
+    while(left_index<=right_index){
+     mid_point = (left_index+right_index)/2;
+        if(target==ara[mid_point]){
+            break;
+        }
+        else if(target<ara[mid_point]){
+            right_index = mid_point-1;
+        }
+        else{
+            left_index= mid_point+1;
+        }
+     }
+        printf("%d is the target number",ara[mid_point]);
+    return 0;
+   }
