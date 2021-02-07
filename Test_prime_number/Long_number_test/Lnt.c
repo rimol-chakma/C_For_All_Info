@@ -23,7 +23,7 @@ int is_prime_number(int n){
     }
 
     for(i=3;i<=n/2/*if we put input as 47,so in this case i<=47/2 will be 23 which is a prime number and it executes out of for loop */;i=i+2){
-
+//for odd numbers
         if(n%i==0){
 
             return 0;//boolean false
