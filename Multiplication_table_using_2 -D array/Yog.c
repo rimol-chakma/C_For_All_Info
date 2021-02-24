@@ -30,7 +30,7 @@ int main(){
 
     }
 
-   printf("\n");//This is space distance
+   printf("\n");//This is space distance after finishing the 3rd for loop
 
    printf("\n");
 
