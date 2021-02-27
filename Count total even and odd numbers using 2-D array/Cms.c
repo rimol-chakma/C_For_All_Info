@@ -6,7 +6,7 @@ int main(){
 
      int mul_table[10][3];
 
-   for(row=7;row<=10;row++){
+   for(row=2;row<=10;row++){
 
       for(col=1;col<=10;col++){
 
@@ -20,7 +20,7 @@ printf("%d×%d=%d\n",row,col,mul_table[row][col]);
 
      }
 
-  for(row=7;row<=10;row++){
+  for(row=2;row<=10;row++){
 
         even =0;
 
