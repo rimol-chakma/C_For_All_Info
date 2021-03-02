@@ -12,7 +12,7 @@ void decimal_to_binary(int n){
 }
 int main(){
     int m;
-    printf("Enter any decinal nunber : ");
+    printf("Enter any decimal nunber : ");
     scanf("%d",&m);
     printf("%d in binary number system is:\n", m);
     decimal_to_binary(m);
